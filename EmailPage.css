@@ -1,0 +1,101 @@
+#message2 {
+	resize: vertical;
+}
+
+#message {
+	resize: vertical;
+}
+
+#title {
+
+	text-align:center;
+	font-size: 24px;
+    height: 75px;
+	background-color: #9ECFE0;
+	font-family:'Berlin Sans FB';
+    margin-bottom: 25px;
+}
+
+#titleText {
+
+	text-align:center;
+	font-size: 36px;
+	font-family: 'Berlin Sans FB';
+    padding-top: 14px;
+}
+
+.tab-pane .list-group .checkbox { 
+    margin: 0px; 
+    display: inline-block;
+}
+
+.tab-pane .list-group input[type="checkbox"]{ 
+    margin-top: 5px; 
+}
+.tab-pane .list-group .glyphicon { 
+    margin-right: 5px; 
+}
+
+.nav-tabs .glyphicon:not(.no-margin) { 
+    margin-right: 13px; 
+}
+
+.tab-pane .list-group .glyphicon:hover { 
+    color: red;
+}
+
+#minusStyle {
+    font-size: 11px;
+}
+
+#inboxStyle {
+    margin-left: 10px;
+}
+
+a.list-group-item.unread { 
+    color: #333;
+    font-weight: bolder;
+    font-size: 1.15em;
+}
+
+hr { 
+    margin-top: 5px;
+    margin-bottom: 10px; 
+}
+
+.nav-pills>li>a {
+    padding: 5px 10px;
+}
+
+.modal-body {
+    position: relative;
+    overflow-y: auto;
+    max-height: 400px;
+    padding: 15px;
+}
+
+.modal-footer {
+    padding: 14px 15px 15px;
+    margin-bottom: 0px;
+    text-align: right;
+    background-color: #F5F5F5;
+    border-top: 1px solid #DDD;
+    border-radius: 0px 0px 6px 6px;
+    box-shadow: 0px 1px 0px #FFF inset;
+}
+
+.text-muted
+{
+    margin: 8px;
+}
+
+#refreshButton
+{
+    padding-right: 0px;
+    float: right;
+}
+
+.name
+{
+    margin: 8px;
+}

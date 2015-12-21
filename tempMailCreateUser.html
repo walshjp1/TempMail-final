@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="tempMailLoginStyle.css">
+<link href='https://fonts.googleapis.com/css?family=Waiting+for+the+Sunrise ' rel='stylesheet' type='text/css'>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script language="javascript" type="text/javascript" src="tempMailCreateUser.js"></script>
+</head>
+<body>
+<div id="title">
+  TempMail
+</div>
+<div class="loginElement" id="container">
+
+<div class="container">
+  <h2>Create User</h2>
+  <form role="form" name="frm" action="createUser.php" method="post" onsubmit="return Validate()">
+    <div class="form-group">
+      <label for="usrname">username:</label>
+      <input type="usrname" class="form-control" id="usrname" placeholder="create username" name="usr">
+    </div>
+    <div class="form-group">
+      <label for="email">email (optional):</label>
+      <input type="email" class="form-control" id="email" placeholder="enter email (optional)" name="email">
+    </div>
+    <div class="form-group">
+      <label for="pwd">password:</label>
+      <input type="password" class="form-control" id="pwd" placeholder="create password" name="pwd">
+    </div>
+    <div class="form-group">
+      <label for="cnfmpwd">confirm password:</label>
+      <input type="password" class="form-control" id="cnfmpwd" placeholder="enter password again" name="pwd2">
+    </div>
+
+    <input type="submit" value="Create">
+    <a href="tempMailLogin.html">back to login</a>
+  </form>
+</div>
+
+</div>
+
+</body>
+</html>

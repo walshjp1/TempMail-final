@@ -1,0 +1,97 @@
+
+#title {
+	text-align:center;
+	font-size: 36px;
+	background-color: black;
+	color: white;
+	font-family:'Berlin Sans FB';
+    padding-top: 14px;
+    padding-bottom: 10px;
+}
+
+#toggleTheme {
+	display: inherit;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+
+.loginElement{
+	position: absolute;
+	top:50%;
+	left:50%;
+
+    min-width: 300px;
+    width: 40%;
+    background: LIGHTBLUE;
+    border-radius: 20px;
+
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+
+#container
+{	
+    background-color: black;
+    color: white;
+    border-radius: 1.5em;
+}
+.container{
+    width: auto;
+	padding: 5px;
+	padding-bottom: 15px;
+}
+
+.email-list-item
+{
+    padding: 0.25em;
+    margin-left: 0.3em;
+}
+
+.alert-success
+{
+    width: 70%;
+    word-wrap: break-word;
+    white-space: normal;
+    background-color: darkblue;
+    color: white;
+    font-size: 1.5em;
+}
+
+
+.alert-danger
+{
+    width: 27.5%;
+    word-wrap: hyphenate;
+    white-space: normal;
+    float: right;
+    margin-right: 0.3em;
+    background-color: darkred;
+    color: white;
+    font-size: 1.3em;
+}
+
+#addemailaddress
+{
+    text-align: center;
+    font-size: 1.5em;
+    background-color: black;
+    color: white;
+    margin: 0.3em 0.3em 0 0.3em;
+    font-family: Arial;
+    background-color: #606060;
+    color: white;
+    border-radius: 0.2em;
+}
+
+#newemail
+{
+    color: white;
+}
+
+.alert, #toggleTheme
+{
+    background-color: #606060;
+    color: white;
+    font-size: 1.25em;
+}
